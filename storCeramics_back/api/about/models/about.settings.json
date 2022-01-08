@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "WhoWeAre": {
+      "type": "text",
+      "required": true,
+      "minLength": 10,
+      "maxLength": 155
+    },
+    "WhoWeDo": {
+      "type": "text",
+      "required": true,
+      "minLength": 10,
+      "maxLength": 155
+    },
+    "HowDoWeDo": {
+      "type": "text",
+      "minLength": 10,
+      "maxLength": 155,
+      "required": true
+    },
+    "MainLogo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Quote": {
+      "type": "text",
+      "minLength": 10,
+      "maxLength": 300,
+      "required": true
+    },
+    "QuoteImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "instagrams",
+  "info": {
+    "name": "Instagram",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 30
+    },
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

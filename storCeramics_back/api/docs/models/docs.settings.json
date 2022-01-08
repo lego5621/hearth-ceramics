@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "docs",
+  "info": {
+    "name": "Docs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "delivery": {
+      "type": "text",
+      "required": true
+    },
+    "returnPolicy": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

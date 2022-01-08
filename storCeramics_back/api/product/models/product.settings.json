@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "Product",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": []
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "maxLength": 40
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "Price": {
+      "type": "decimal",
+      "required": true
+    },
+    "OldPrice": {
+      "type": "integer",
+      "min": 0
+    },
+    "slug": {
+      "type": "string",
+      "required": false,
+      "private": false
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 200,
+      "minLength": 10
+    },
+    "category": {
+      "via": "products",
+      "model": "category"
+    },
+    "product_sery": {
+      "via": "products",
+      "model": "product-series"
+    },
+    "count": {
+      "type": "integer",
+      "required": true,
+      "min": 1
+    },
+    "descriptionSEO": {
+      "type": "text",
+      "required": true,
+      "minLength": 10
+    }
+  }
+}

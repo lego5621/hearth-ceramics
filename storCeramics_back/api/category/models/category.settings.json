@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Category",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "id",
+      "created_at",
+      "updated_at"
+    ]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "maxLength": 30,
+      "minLength": 3
+    },
+    "products": {
+      "via": "category",
+      "collection": "product"
+    },
+    "slug": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

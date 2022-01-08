@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_series",
+  "info": {
+    "name": "ProductSeries"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true,
+    "privateAttributes": [
+      "id",
+      "created_at",
+      "updated_at"
+    ]
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "minLength": 3
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "products": {
+      "via": "product_sery",
+      "collection": "product"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
