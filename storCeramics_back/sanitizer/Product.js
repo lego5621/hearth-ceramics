@@ -40,4 +40,5 @@ module.exports = {
     },
     count: true,
     descriptionSEO: true,
+    material: true,
 }

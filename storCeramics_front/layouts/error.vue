@@ -24,5 +24,10 @@
 <script>
 export default {
     props: ['error'],
+        head() {
+        return {
+            title: '404' + ' - hearth.ceramics',
+        }
+    },
 }
 </script>

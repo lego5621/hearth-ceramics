@@ -65,6 +65,10 @@
       "type": "text",
       "required": true,
       "minLength": 10
+    },
+    "material": {
+      "type": "string",
+      "required": true
     }
   }
 }

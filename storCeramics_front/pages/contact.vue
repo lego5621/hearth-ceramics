@@ -56,7 +56,7 @@
                                         <div class="col-lg-6">
                                             <input
                                                 type="text"
-                                                placeholder="Почта"
+                                                placeholder="Email"
                                                 class="rounded-lg"
                                             />
                                         </div>

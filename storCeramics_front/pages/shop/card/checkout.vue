@@ -44,59 +44,77 @@
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="checkout__input">
-                                                <p>Fist Name<span>*</span></p>
+                                                <p>Имя<span>*</span></p>
                                                 <input
                                                     class="rounded-lg"
                                                     type="text"
+                                                    placeholder="Иван"
                                                 />
                                             </div>
                                         </div>
                                         <div class="col-lg-6">
                                             <div class="checkout__input">
-                                                <p>Last Name<span>*</span></p>
+                                                <p>Фамилия<span>*</span></p>
                                                 <input
                                                     class="rounded-lg"
                                                     type="text"
+                                                    placeholder="Иванов"
                                                 />
                                             </div>
                                         </div>
                                     </div>
                                     <div class="checkout__input">
-                                        <p>Country<span>*</span></p>
-                                        <input class="rounded-lg" type="text" />
+                                        <p>Страна<span>*</span></p>
+                                        <input
+                                            class="rounded-lg"
+                                            type="text"
+                                            placeholder="Россия"
+                                        />
                                     </div>
                                     <div class="checkout__input">
-                                        <p>Address<span>*</span></p>
+                                        <p>Область<span>*</span></p>
                                         <input
                                             type="text"
-                                            placeholder="Street Address"
+                                            placeholder="Московская"
                                             class="checkout__input__add rounded-jg"
                                         />
+                                    </div>
+                                    <div class="checkout__input">
+                                        <p>Город<span>*</span></p>
                                         <input
-                                            type="text"
                                             class="rounded-lg"
-                                            placeholder="Apartment, suite, unite ect (optinal)"
+                                            type="text"
+                                            placeholder="Москва"
                                         />
                                     </div>
                                     <div class="checkout__input">
-                                        <p>Town/City<span>*</span></p>
-                                        <input class="rounded-lg" type="text" />
+                                        <p>Адрес<span>*</span></p>
+                                        <input
+                                            class="rounded-lg"
+                                            type="text"
+                                            placeholder="ул Московская дом 3"
+                                        />
                                     </div>
                                     <div class="checkout__input">
-                                        <p>Country/State<span>*</span></p>
-                                        <input class="rounded-lg" type="text" />
-                                    </div>
-                                    <div class="checkout__input">
-                                        <p>Postcode / ZIP<span>*</span></p>
-                                        <input class="rounded-lg" type="text" />
+                                        <p>Почтовый индекс<span>*</span></p>
+                                        <input
+                                            class="rounded-lg"
+                                            type="text"
+                                            v-mask="'######'"
+                                            v-model="inputValue"
+                                            placeholder="101000"
+                                        />
                                     </div>
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <div class="checkout__input">
-                                                <p>Phone<span>*</span></p>
+                                                <p>Телефон<span>*</span></p>
                                                 <input
                                                     class="rounded-lg"
                                                     type="text"
+                                                    placeholder="+7 777 777 77 77"
+                                                    v-mask="'+7 ### ### ## ##'"
+                                                    v-model="telephoneValue"
                                                 />
                                             </div>
                                         </div>
@@ -106,17 +124,18 @@
                                                 <input
                                                     class="rounded-lg"
                                                     type="text"
+                                                    placeholder="someone@example.com"
                                                 />
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="checkout__input">
-                                        <p>Order notes<span>*</span></p>
+                                        <p>Записка для продавца</p>
                                         <input
                                             type="text"
                                             class="rounded-lg"
-                                            placeholder="Notes about your order, e.g. special notes for delivery."
+                                            placeholder="Напишите продавцу свои пожелания"
                                         />
                                     </div>
                                 </div>
@@ -142,18 +161,19 @@
                                             </li>
                                         </ul>
                                         <ul class="checkout__total__all">
+                                            <li>Доставка<span>300 ₽</span></li>
                                             <li>
                                                 Сумма
-                                                <span
-                                                    >{{ getTotalPrice }} ₽</span
-                                                >
+                                                <span>
+                                                    {{ getTotalPrice + 300 }} ₽
+                                                </span>
                                             </li>
                                         </ul>
                                         <button
                                             type="submit"
                                             class="site-btn rounded-lg"
                                         >
-                                            Оплатить
+                                           К оплате
                                         </button>
                                     </div>
                                 </div>
@@ -171,6 +191,12 @@ import { mapGetters } from 'vuex'
 export default {
     computed: {
         ...mapGetters('card', ['getCart', 'getTotalPrice']),
+    },
+    data: function () {
+        return {
+            inputValue: '',
+            telephoneValue: '',
+        }
     },
 }
 </script>

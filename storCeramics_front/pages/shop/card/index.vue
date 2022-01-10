@@ -118,9 +118,9 @@
                             <div class="cart__total rounded-lg">
                                 <h6>Цена корзины</h6>
                                 <ul>
-                                    <!-- <li>Скидка<span>0 ₽</span></li> -->
+                                    <li>Доставка<span>300 ₽</span></li>
                                     <li>
-                                        Итого <span>{{ getTotalPrice }} ₽</span>
+                                        Итого <span>{{ getTotalPrice +300 }} ₽</span>
                                     </li>
                                 </ul>
                                 <NuxtLink

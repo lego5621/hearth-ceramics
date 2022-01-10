@@ -88,7 +88,7 @@
                                         <span class="font-weight-bold"
                                             >Материалы:</span
                                         >
-                                        Глина. Глазурь.
+                                        {{ productItem[0].material }}
                                     </p>
                                     <p>
                                         <span class="font-weight-bold">

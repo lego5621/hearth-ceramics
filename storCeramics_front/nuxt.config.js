@@ -63,7 +63,7 @@ export default {
     plugins: [
         '~/plugins/moment.js',
         '~/plugins/vueProductCarousel.js',
-        { src: '~plugins/vueBurgerMenu.js', ssr: false },
+        { src: '~plugins/mask.js', ssr: false },
     ],
 
     // Auto import components: https://go.nuxtjs.dev/config-components
