@@ -172,8 +172,9 @@
                                         <button
                                             type="submit"
                                             class="site-btn rounded-lg"
+                                            v-on:click.prevent="showAlert"
                                         >
-                                           К оплате
+                                            К оплате
                                         </button>
                                     </div>
                                 </div>
@@ -197,6 +198,17 @@ export default {
             inputValue: '',
             telephoneValue: '',
         }
+    },
+
+    methods: {
+        showAlert: function () {
+            this.$toast('Оплата временно недоступна', {
+                timeout: 2000,
+                position: 'bottom-center',
+                icon: false,
+                hideProgressBar: true,
+            })
+        },
     },
 }
 </script>
