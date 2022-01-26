@@ -1,0 +1,41 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/cart-input-price.js": "components/cart-input-price.js",
+    "components/footer.js": "components/footer.js",
+    "components/pagination.js": "components/pagination.js",
+    "components/product-card.js": "components/product-card.js",
+    "components/shop-filter.js": "components/shop-filter.js",
+    "components/the-layout.js": "components/the-layout.js",
+    "pages/about.js": "pages/about.js",
+    "pages/blog/_slug.js": "pages/blog/_slug.js",
+    "pages/blog/page/_page.js": "pages/blog/page/_page.js",
+    "pages/contact.js": "pages/contact.js",
+    "pages/index.js": "pages/index.js",
+    "pages/product/_slug.js": "pages/product/_slug.js",
+    "pages/shop/card/checkout.js": "pages/shop/card/checkout.js",
+    "pages/shop/card/index.js": "pages/shop/card/index.js",
+    "pages/shop/category.js": "pages/shop/category.js",
+    "pages/shop/category/_category/series/_series/page/_page.js": "pages/shop/category/_category/series/_series/page/_page.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/cart-input-price.js": "components/cart-input-price.js.map",
+    "components/footer.js": "components/footer.js.map",
+    "components/pagination.js": "components/pagination.js.map",
+    "components/product-card.js": "components/product-card.js.map",
+    "components/shop-filter.js": "components/shop-filter.js.map",
+    "components/the-layout.js": "components/the-layout.js.map",
+    "pages/about.js": "pages/about.js.map",
+    "pages/blog/_slug.js": "pages/blog/_slug.js.map",
+    "pages/blog/page/_page.js": "pages/blog/page/_page.js.map",
+    "pages/contact.js": "pages/contact.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/product/_slug.js": "pages/product/_slug.js.map",
+    "pages/shop/card/checkout.js": "pages/shop/card/checkout.js.map",
+    "pages/shop/card/index.js": "pages/shop/card/index.js.map",
+    "pages/shop/category.js": "pages/shop/category.js.map",
+    "pages/shop/category/_category/series/_series/page/_page.js": "pages/shop/category/_category/series/_series/page/_page.js.map",
+    "server.js": "server.js.map"
+  }
+}
