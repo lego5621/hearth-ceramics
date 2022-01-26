@@ -10,4 +10,24 @@
  * See more details here: https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+module.exports = () => {
+const prefix = strapi.config.server.url;
+  if (prefix) {
+    strapi.router.stack.forEach((i) => (i.path = i.path.replace(prefix, "")));
+    strapi.router.prefix(prefix);
+    strapi.app.middleware.forEach((i) => i.router && i.router.prefix(prefix));
+
+    strapi.app.use(async (ctx, next) => {
+      if (
+        ctx.request.url === prefix + "/_health" &&
+        ctx.request.method === "HEAD"
+      ) {
+        ctx.set("strapi", "You are so French!");
+        ctx.status = 204;
+      } else {
+        await next();
+      }
+    });
+  }};
+
+
