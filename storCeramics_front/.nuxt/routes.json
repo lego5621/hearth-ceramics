@@ -1,0 +1,74 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_25194b94"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_46718ae7"
+  },
+  {
+    "name": "shop-card",
+    "path": "/shop/card",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/shop/card/index.vue",
+    "chunkName": "pages/shop/card/index",
+    "_name": "_0f528f93"
+  },
+  {
+    "name": "shop-category",
+    "path": "/shop/category",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/shop/category.vue",
+    "chunkName": "pages/shop/category",
+    "children": [
+      {
+        "name": "shop-category-category-series-series-page-page",
+        "path": ":category?/series/:series?/page/:page?",
+        "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/shop/category/_category/series/_series/page/_page.vue",
+        "chunkName": "pages/shop/category/_category/series/_series/page/_page",
+        "_name": "_38bd94dc"
+      }
+    ],
+    "_name": "_17548804"
+  },
+  {
+    "name": "shop-card-checkout",
+    "path": "/shop/card/checkout",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/shop/card/checkout.vue",
+    "chunkName": "pages/shop/card/checkout",
+    "_name": "_5f180315"
+  },
+  {
+    "name": "blog-page-page",
+    "path": "/blog/page/:page?",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/blog/page/_page.vue",
+    "chunkName": "pages/blog/page/_page",
+    "_name": "_a720327c"
+  },
+  {
+    "name": "blog-slug",
+    "path": "/blog/:slug?",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/blog/_slug.vue",
+    "chunkName": "pages/blog/_slug",
+    "_name": "_80b22734"
+  },
+  {
+    "name": "product-slug",
+    "path": "/product/:slug?",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/product/_slug.vue",
+    "chunkName": "pages/product/_slug",
+    "_name": "_730898f1"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/oleg/Documents/storCeramics/storCeramics_front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_44d12659"
+  }
+]

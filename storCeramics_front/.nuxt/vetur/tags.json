@@ -1,0 +1,23 @@
+{
+  "CartInputPrice": {
+    "description": "Auto imported from components/CartInputPrice.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Pagination": {
+    "description": "Auto imported from components/Pagination.vue"
+  },
+  "ProductCard": {
+    "description": "Auto imported from components/ProductCard.vue"
+  },
+  "ShopFilter": {
+    "description": "Auto imported from components/ShopFilter.vue"
+  },
+  "TheLayout": {
+    "description": "Auto imported from components/TheLayout.vue"
+  }
+}
