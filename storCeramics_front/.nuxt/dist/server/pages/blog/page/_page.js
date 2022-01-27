@@ -94,7 +94,7 @@ installComponents(component, {Footer: __webpack_require__(68).default})
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/page/_page.vue?vue&type=template&id=61f4f814&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/page/_page.vue?vue&type=template&id=720e58c9&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex-grow-1 d-flex"},[(_vm.blogList[0])?_c('TheLayout',[_c('section',{staticClass:"breadcrumb-blog set-bg",style:({
                 'background-image': 'url(/img/breadcrumb-bg.jpg)',
             })},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12"},[_c('h2',{staticClass:"blogH2"},[_vm._v("Наш блог")])])])])]),_vm._v(" "),_c('section',{staticClass:"blog spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},_vm._l((_vm.blogList),function(item){return _c('div',{key:item.id,staticClass:"col-lg-4 col-md-6 col-sm-6"},[_c('div',{staticClass:"blog__item"},[_c('div',{staticClass:"blog__item__pic set-bg rounded-lg",style:({
@@ -134,7 +134,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/blog/page/_page.vue?vue&type=template&id=61f4f814&
+// CONCATENATED MODULE: ./pages/blog/page/_page.vue?vue&type=template&id=720e58c9&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(4);
@@ -258,7 +258,7 @@ var external_vuex_ = __webpack_require__(4);
     return {
       allData: [],
       error: null,
-      urlApi: 'http://localhost:1337'
+      urlApi: 'http://194.87.111.244/api/'
     };
   },
 

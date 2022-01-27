@@ -86,6 +86,6 @@ export default {
             'about',
             'product-series',
         ],
-        url: 'http://localhost:1337',
+        url: 'http://194.87.111.244/api/',
     },
 }

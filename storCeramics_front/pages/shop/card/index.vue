@@ -143,7 +143,7 @@ import { mapGetters, mapMutations } from 'vuex'
 export default {
     data: function () {
         return {
-            urlApi: 'http://localhost:1337',
+            urlApi: 'http://194.87.111.244/api/',
             caunt: 0,
         }
     },

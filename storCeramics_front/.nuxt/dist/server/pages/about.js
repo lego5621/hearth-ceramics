@@ -94,7 +94,7 @@ installComponents(component, {Footer: __webpack_require__(68).default})
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/about.vue?vue&type=template&id=7c24d428&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/about.vue?vue&type=template&id=4c64def5&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.InfoAbaut[0])?_c('TheLayout',[_c('section',{staticClass:"breadcrumb-option"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12"},[_c('div',{staticClass:"breadcrumb__text"},[_c('h4',[_vm._v("О нас")]),_vm._v(" "),_c('div',{staticClass:"breadcrumb__links"},[_c('NuxtLink',{attrs:{"to":"/"}},[_vm._v("Главная")]),_vm._v(" "),_c('span',[_vm._v("О нас")])],1)])])])])]),_vm._v(" "),_c('section',{staticClass:"about spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12"},[_c('div',{staticClass:"about__pic"},[_c('img',{staticClass:"rounded-lg",attrs:{"src":_vm.urlApi + _vm.InfoAbaut[0].MainLogo.url,"alt":"about logo"}})])])]),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-4 col-md-4 col-sm-6"},[_c('div',{staticClass:"about__item"},[_c('h4',[_vm._v("Кто мы ?")]),_vm._v(" "),_c('p',[_vm._v("\n                            "+_vm._s(_vm.InfoAbaut[0].WhoWeAre)+"\n                        ")])])]),_vm._v(" "),_c('div',{staticClass:"col-lg-4 col-md-4 col-sm-6"},[_c('div',{staticClass:"about__item"},[_c('h4',[_vm._v("Что мы делаем ?")]),_vm._v(" "),_c('p',[_vm._v("\n                            "+_vm._s(_vm.InfoAbaut[0].WhoWeDo)+"\n                        ")])])]),_vm._v(" "),_c('div',{staticClass:"col-lg-4 col-md-4 col-sm-6"},[_c('div',{staticClass:"about__item"},[_c('h4',[_vm._v("Как мы делаем ?")]),_vm._v(" "),_c('p',[_vm._v("\n                            "+_vm._s(_vm.InfoAbaut[0].HowDoWeDo)+"\n                        ")])])])])])]),_vm._v(" "),_c('section',{staticClass:"testimonial"},[_c('div',{staticClass:"container-fluid"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-6 p-0 d-flex quote-flex"},[_c('div',{staticClass:"testimonial__text"},[_c('p',[_vm._v("\" "+_vm._s(_vm.InfoAbaut[0].Quote)+" \"")])])]),_vm._v(" "),_c('div',{staticClass:"col-lg-6 p-0"},[_c('div',{staticClass:"testimonial__pic set-bg",style:({
                             'background-image':
                                 'url(' +
@@ -108,7 +108,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/about.vue?vue&type=template&id=7c24d428&
+// CONCATENATED MODULE: ./pages/about.vue?vue&type=template&id=4c64def5&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/about.vue?vue&type=script&lang=js&
 //
@@ -252,7 +252,7 @@ var staticRenderFns = []
     return {
       InfoAbaut: [],
       error: null,
-      urlApi: 'http://localhost:1337'
+      urlApi: 'http://194.87.111.244/api/'
     };
   },
 

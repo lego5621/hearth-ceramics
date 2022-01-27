@@ -4862,7 +4862,7 @@ class strapi_Strapi extends hookable_default.a {
 
 
 const strapi_options = {
-  "url": "http://localhost:1337",
+  "url": "http://194.87.111.244/api/",
   "entities": ["products", "categories", "blogs", "about", "product-series"],
   "key": "strapi_jwt",
   "expires": "session",

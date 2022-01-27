@@ -133,11 +133,9 @@
                                     дому, семье и друзьям.
                                 </p>
                                 <h3 class="mb-2">
-                                    <a
-                                        :href="allData[3].Link"
-                                        target="_blank"
-                                        >{{ allData[3].Name }}</a
-                                    >
+                                    <a :href="allData[3].Link" target="_blank">
+                                        {{ allData[3].Name }}
+                                    </a>
                                 </h3>
                             </div>
                         </div>
@@ -225,7 +223,7 @@ export default {
         return {
             allData: [],
             error: null,
-            urlApi: 'http://localhost:1337',
+            urlApi: 'http://194.87.111.244/api/',
         }
     },
 

@@ -78,16 +78,19 @@
                                     <p class="mb-3">
                                         {{ productItem[0].description }}
                                     </p>
-                                    <p class="mb-2">
-                                        <span class="font-weight-bold"
-                                            >Серия:</span
-                                        >
+                                    <p
+                                        class="mb-2"
+                                        v-if="productItem[0].product_sery"
+                                    >
+                                        <span class="font-weight-bold">
+                                            Серия:
+                                        </span>
                                         {{ productItem[0].product_sery.name }}
                                     </p>
-                                    <p class="mb-2">
-                                        <span class="font-weight-bold"
-                                            >Материалы:</span
-                                        >
+                                    <p class="mb-2" v-if="productItem[0].material">
+                                        <span class="font-weight-bold">
+                                            Материалы:
+                                        </span>
                                         {{ productItem[0].material }}
                                     </p>
                                     <p>
@@ -176,7 +179,7 @@ export default {
     name: 'slug',
     data() {
         return {
-            urlApi: 'http://localhost:1337',
+            urlApi: 'http://194.87.111.244/api/',
             count: 1,
         }
     },

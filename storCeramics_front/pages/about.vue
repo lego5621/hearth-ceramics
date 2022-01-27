@@ -140,7 +140,7 @@ export default {
         return {
             InfoAbaut: [],
             error: null,
-            urlApi: 'http://localhost:1337',
+            urlApi: 'http://194.87.111.244/api/',
         }
     },
     async fetch() {

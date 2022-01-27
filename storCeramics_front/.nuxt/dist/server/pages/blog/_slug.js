@@ -94,12 +94,12 @@ installComponents(component, {Footer: __webpack_require__(68).default})
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/_slug.vue?vue&type=template&id=cecfe458&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/_slug.vue?vue&type=template&id=d12f8a86&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"flex-grow-1 d-flex"},[(_vm.allData.Title)?_c('TheLayout',[_c('section',{staticClass:"blog-hero spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row d-flex justify-content-center"},[_c('div',{staticClass:"col-lg-9 text-center"},[_c('div',{staticClass:"blog__hero__text"},[_c('h2',[_vm._v("\n                                "+_vm._s(_vm.allData.Title)+"\n                            ")]),_vm._v(" "),_c('ul',[_c('li',[_vm._v("\n                                    "+_vm._s(_vm._f("moment")(_vm.allData.published_at,'LL'))+"\n                                ")])])])])])])]),_vm._v(" "),_c('section',{staticClass:"blog-details"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row d-flex justify-content-center"},[_c('div',{staticClass:"col-lg-12"},[_c('div',{staticClass:"blog__details__pic"},[_c('img',{attrs:{"src":_vm.urlApi + _vm.allData.Logo.url,"alt":"Post blog logo"}})])]),_vm._v(" "),_c('div',{staticClass:"col-lg-8"},[_c('div',{staticClass:"blog__details__content"},[_c('div',{staticClass:"blog__details__text",domProps:{"innerHTML":_vm._s(_vm.allData.Text)}})])])])])])]):_vm._e()],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/blog/_slug.vue?vue&type=template&id=cecfe458&
+// CONCATENATED MODULE: ./pages/blog/_slug.vue?vue&type=template&id=d12f8a86&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/blog/_slug.vue?vue&type=script&lang=js&
 //
@@ -159,7 +159,7 @@ var staticRenderFns = []
     return {
       allData: [],
       error: null,
-      urlApi: 'http://localhost:1337'
+      urlApi: 'http://194.87.111.244/api/'
     };
   },
 

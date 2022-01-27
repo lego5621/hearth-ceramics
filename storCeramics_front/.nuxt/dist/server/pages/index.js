@@ -196,7 +196,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=af70eba2&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=cda5c658&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.allData[1])?_c('div',{staticClass:"flex-grow-1 d-flex"},[_c('TheLayout',[_c('section',{staticClass:"banner"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row position-relative container__banner"},[_c('div',{staticClass:"col-xl-4 banner__title"},[_c('h2',{staticClass:"mt-lg-5 mb-4"},[_vm._v("\n                            Уникальные изделия ручной работы\n                        ")])]),_vm._v(" "),_c('div',{staticClass:"col-xl-7"},[_c('div',{staticClass:"banner__item banner__item--first"},[_c('div',{staticClass:"banner__item__pic rounded-lg banner__item__img"},[_c('img',{staticClass:"rounded-lg",attrs:{"src":_vm.urlApi + _vm.allData[1][0].logo.url,"alt":'Серия' + _vm.allData[1][0].Name}})]),_vm._v(" "),_c('div',{staticClass:"banner__item__text"},[_c('h2',[_vm._v("\""+_vm._s(_vm.allData[1][0].name)+"\"")]),_vm._v(" "),_c('NuxtLink',{attrs:{"to":{
                                         name: 'shop-category-category-series-series-page-page',
                                         params: {
@@ -218,7 +218,7 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
                                             series: _vm.allData[1][2].slug,
                                             page: 1,
                                         },
-                                    }}},[_vm._v("К серии\n                                ")])],1)])])])])]),_vm._v(" "),_c('section',{staticClass:"product spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12 banner__title"},[_c('h2',{staticClass:"mb-4"},[_vm._v("Последние поступления")])])]),_vm._v(" "),_c('div',{staticClass:"row product__filter"},_vm._l((this.allData[0]),function(item){return _c('ProductCard',{key:item.id,attrs:{"product":item,"urlApi":_vm.urlApi,"lg":"col-lg-3"}})}),1)])]),_vm._v(" "),_c('section',{staticClass:"instagram spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-4 instagram__text__wrap"},[_c('div',{staticClass:"instagram__text"},[_c('h2',[_vm._v("Instagram")]),_vm._v(" "),_c('p',[_vm._v("\n                                Каждое новое изделие, сделанное нами не\n                                похоже на предыдущее. Форма, размер, цвет -\n                                всё уникальное.\n                                "),_c('br'),_vm._v(" "),_c('br'),_vm._v("\n                                К каждому из них я питаю особые теплые\n                                чувства. Надеюсь они передадутся вам, вашему\n                                дому, семье и друзьям.\n                            ")]),_vm._v(" "),_c('h3',{staticClass:"mb-2"},[_c('a',{attrs:{"href":_vm.allData[3].Link,"target":"_blank"}},[_vm._v(_vm._s(_vm.allData[3].Name))])])])]),_vm._v(" "),_c('div',{staticClass:"col-lg-8"},[_c('div',{staticClass:"instagram__pic"},_vm._l((_vm.allData[3].img),function(i){return _c('div',{key:i.id,staticClass:"instagram__pic__item set-bg"},[_c('img',{staticClass:"rounded-lg",attrs:{"src":_vm.urlApi + i.url,"alt":_vm.allData[3].Name}})])}),0)])])])]),_vm._v(" "),_c('section',{staticClass:"latest spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12"},[_c('div',{staticClass:"section-title"},[_c('h2',[_vm._v("Наш Блог")])])])]),_vm._v(" "),_c('div',{staticClass:"row"},_vm._l((_vm.allData[2]),function(item){return _c('div',{key:item.id,staticClass:"col-lg-4 col-md-6 col-sm-6"},[_c('NuxtLink',{attrs:{"to":{
+                                    }}},[_vm._v("К серии\n                                ")])],1)])])])])]),_vm._v(" "),_c('section',{staticClass:"product spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12 banner__title"},[_c('h2',{staticClass:"mb-4"},[_vm._v("Последние поступления")])])]),_vm._v(" "),_c('div',{staticClass:"row product__filter"},_vm._l((this.allData[0]),function(item){return _c('ProductCard',{key:item.id,attrs:{"product":item,"urlApi":_vm.urlApi,"lg":"col-lg-3"}})}),1)])]),_vm._v(" "),_c('section',{staticClass:"instagram spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-4 instagram__text__wrap"},[_c('div',{staticClass:"instagram__text"},[_c('h2',[_vm._v("Instagram")]),_vm._v(" "),_c('p',[_vm._v("\n                                Каждое новое изделие, сделанное нами не\n                                похоже на предыдущее. Форма, размер, цвет -\n                                всё уникальное.\n                                "),_c('br'),_vm._v(" "),_c('br'),_vm._v("\n                                К каждому из них я питаю особые теплые\n                                чувства. Надеюсь они передадутся вам, вашему\n                                дому, семье и друзьям.\n                            ")]),_vm._v(" "),_c('h3',{staticClass:"mb-2"},[_c('a',{attrs:{"href":_vm.allData[3].Link,"target":"_blank"}},[_vm._v("\n                                    "+_vm._s(_vm.allData[3].Name)+"\n                                ")])])])]),_vm._v(" "),_c('div',{staticClass:"col-lg-8"},[_c('div',{staticClass:"instagram__pic"},_vm._l((_vm.allData[3].img),function(i){return _c('div',{key:i.id,staticClass:"instagram__pic__item set-bg"},[_c('img',{staticClass:"rounded-lg",attrs:{"src":_vm.urlApi + i.url,"alt":_vm.allData[3].Name}})])}),0)])])])]),_vm._v(" "),_c('section',{staticClass:"latest spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12"},[_c('div',{staticClass:"section-title"},[_c('h2',[_vm._v("Наш Блог")])])])]),_vm._v(" "),_c('div',{staticClass:"row"},_vm._l((_vm.allData[2]),function(item){return _c('div',{key:item.id,staticClass:"col-lg-4 col-md-6 col-sm-6"},[_c('NuxtLink',{attrs:{"to":{
                                 name: 'blog-slug',
                                 params: { slug: item.slug },
                             }}},[_c('div',{staticClass:"blog__item"},[_c('div',{staticClass:"blog__item__pic set-bg rounded-lg",style:({
@@ -231,11 +231,9 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=af70eba2&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=cda5c658&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
-//
-//
 //
 //
 //
@@ -460,7 +458,7 @@ var staticRenderFns = []
     return {
       allData: [],
       error: null,
-      urlApi: 'http://localhost:1337'
+      urlApi: 'http://194.87.111.244/api/'
     };
   },
 

@@ -422,12 +422,12 @@ module.exports = ___CSS_LOADER_EXPORT___;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/shop/category.vue?vue&type=template&id=4c8dc216&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/shop/category.vue?vue&type=template&id=319469b2&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('TheLayout',[_c('div',{staticClass:"flex-grow-1 d-flex flex-column"},[_c('section',{staticClass:"breadcrumb-option"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-lg-12"},[_c('div',{staticClass:"breadcrumb__text"},[_c('h4',[_vm._v("Магазин")]),_vm._v(" "),_c('div',{staticClass:"breadcrumb__links"},[_c('NuxtLink',{attrs:{"to":"/"}},[_vm._v("Главная")]),_vm._v(" "),_c('span',[_vm._v("Магазин")])],1)])])])])]),_vm._v(" "),_c('section',{staticClass:"shop spad"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('ShopFilter'),_vm._v(" "),_c('div',{staticClass:"col-lg-9"},[_c('div',{staticClass:"shop__product__option"}),_vm._v(" "),_c('transition',{attrs:{"name":"fade","mode":"out-in"}},[_c('NuxtChild',{attrs:{"products":_vm.productList,"urlApi":_vm.urlApi,"productCaunt":_vm.productCaunt,"pageLimit":_vm.pageLimit}})],1)],1)],1)])])])])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/shop/category.vue?vue&type=template&id=4c8dc216&
+// CONCATENATED MODULE: ./pages/shop/category.vue?vue&type=template&id=319469b2&
 
 // EXTERNAL MODULE: external "vuex"
 var external_vuex_ = __webpack_require__(4);
@@ -478,7 +478,7 @@ var external_vuex_ = __webpack_require__(4);
 /* harmony default export */ var categoryvue_type_script_lang_js_ = ({
   data() {
     return {
-      urlApi: 'http://localhost:1337'
+      urlApi: 'http://194.87.111.244/api/'
     };
   },
 
